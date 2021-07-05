@@ -157,6 +157,9 @@ ul li a:hover{
     border-radius: 20px;
     box-shadow: 4px 4px 12px black;
 }
+.recipies-body-1 img{
+    border-radius: 20px;
+}
 .recipies-header h2,p{
     text-align: center;
 }
