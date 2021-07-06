@@ -123,6 +123,7 @@ span{
 }
 .about-image img{
     height: 600px;
+    width: 90%;
 }
 .about-text{
    
@@ -149,15 +150,15 @@ span{
 
 .recipies-body{
     display: flex;
-    width: 50%;
-    margin-left: 180px;
+    margin-left: 150px;
+    
 }
 .recipies-body-1{
     padding: 10px 10px 60px 10px;
     margin-left: 60px;
     border-radius: 20px;
     box-shadow: 5px 5px 20px black;
- 
+    max-width: 320px;
 }
 .recipies-body-1 img{
     border-radius: 20px;
