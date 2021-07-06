@@ -12,17 +12,21 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
 </head>
 <body>
     <section id="header">
-            <h1 class="logo">Eat & Treat</h1>
+        <div class="logo">
+            <img src="assets/logo.png" alt="logo">
+        </div>
+            
         <div class="list">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Recipies</a></li>
-                <li><a href="#">Order</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#recipies">Recipies</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#contact">Contacts</a></li>
             </ul>
         </div>
     </section>
@@ -62,7 +66,7 @@
             <h1>With Food Network</h1>
             <p>Imagine you don't need a diet because we provide 
                 healthy and delicious food for you!</p> <br>
-            <a class="link-btn" href="#">ORDER FOOD</a>
+            <a class="link-btn" href="#order">ORDER FOOD</a>
         </div>
         <div class="half-width home-image">
             <img src="assets/model2.png" alt="model1">
@@ -76,34 +80,49 @@
          </div>
          <div class="half-width about-text">
              <h2>About Us</h2>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.</p> <br>
-             <a class="link-btn" href="#">Contact Us</a>
+             <p>We,Testy Bowl will give you the best service ever. Our first priority is our customer's satisfaction. We try our level best to satisfy our customes. You can check out our customer's review in our facebook page.</p> <br>
+             <a class="link-btn" href="#contact">Contact Us</a>
          </div>
     </section>
 
     <section id="recipies">
         <div class="recipies-header">
             <h2>Our Recipies</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <p>We have delicious meat,fast foods and many more items. Choose your favourite one!</p>
         </div>
           
            <div class="recipies-body">
                <div class="recipies-body-1">
                 <img src="assets/res3.jpg" alt="res3">
                 <h2>BURGER</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique delectus ducimus laboriosam assumenda voluptate totam?</p>
+                <p>We have different varieties of Burger in our Menu which is so <span>Delicious!</span></p>
                </div>
                <div class="recipies-body-1">
                 <img src="assets/res2.jpg" alt="res3">
-                <h2>BURGER</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique delectus ducimus laboriosam assumenda voluptate totam?</p>
+                <h2>FISH</h2>
+                <p>We have different varieties of Fish in our Menu which is so <span>Delicious!</span></p>
                </div>
                <div class="recipies-body-1">
                 <img src="assets/res1.jpg" alt="res3">
-                <h2>BURGER</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique delectus ducimus laboriosam assumenda voluptate totam?</p>
+                <h2>NOODLES</h2>
+                <p>We have different varieties of Noodles in our Menu which is so <span>Delicious!</span></p>
                </div>
            </div>
+    </section>
+    <section id="order">
+        <h2>Now order your food<span> ONLINE!</span></h2>
+        <p>we give you an opportunity to order your favourite food online, you can grab that opportunity!</p> <br> <br>
+
+        <div class="order-parent">
+            <div class="half-width text-field">
+                <input class="input search" type="search" placeholder="search you food">
+                <input class="input" type="text" placeholder="your location">
+                <button class="input btn">Confirm Order</button>
+            </div>
+            <div class="half-width">
+                <img src="assets/delivery.svg" alt="delivery">
+            </div>
+        </div>
     </section>
     <section id="contact">
         <h1>Contact Info</h1>
@@ -127,5 +146,12 @@
             
         </div>
     </section>
+    <footer>
+        <div class="logo">
+            <img src="assets/logo.png" alt="">
+        </div>
+        <p>Eat healthy to live healthy. Live healthy to live happy.</p>
+    </footer>
+
 </body>
 </html>

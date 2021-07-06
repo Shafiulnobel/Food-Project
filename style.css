@@ -7,9 +7,12 @@ body{
 }
 /*Header*/
 .logo{
+    margin-top: 10px;
     text-align: center;
-    color: orange;
-    margin-bottom: 0;
+}
+.logo img{
+      width: 70px;
+      height: 70px;
 }
 .list{
     text-align: center;
@@ -77,7 +80,7 @@ ul li a:hover{
 .text p{
     text-align: justify;
 }
-.text .heading span{
+span{
     color: orange;
 }
 
@@ -99,9 +102,10 @@ ul li a:hover{
       border-radius: 25px;
       margin-top: 30px;
       background: linear-gradient(#f88a4b,#f95432);
+      box-shadow: 2px 2px 8px #f95432;
 }
 .link-btn:hover{
-    color: black;
+    
     background: linear-gradient(#f95432,#f88a4b);
 
 }
@@ -137,7 +141,7 @@ ul li a:hover{
 #recipies{
 
     margin-top: -20px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 
@@ -148,31 +152,87 @@ ul li a:hover{
     margin-left: 180px;
 }
 .recipies-body-1{
-    padding: 10px;
+    padding: 10px 10px 60px 10px;
     margin-left: 60px;
     border-radius: 20px;
-    box-shadow: 4px 4px 12px black;
+    box-shadow: 5px 5px 20px black;
+ 
 }
 .recipies-body-1 img{
     border-radius: 20px;
     width: 300px;
 }
+.recipies-body-1 p{
+    text-align: justify;
+}
+.recipies-header h2{
+    color: #707070;
+}
 .recipies-header h2,p{
     text-align: center;
 }
+.recipies-header p{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+/*Order*/
+#order{
+    padding-top:50px;
+}
+#order h2,p{
+     text-align: center;
+     color: #707070;
+}
+
+.order-parent{
+    display: flex;
+    width: 80%;
+}
+.input{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    opacity: .5;
+}
+.text-field{
+    margin-left: 150px;
+    margin-top: 80px;
+}
+.search{
+    margin-bottom: 20px;
+}
+
+.btn{
+    margin-left: 60px;
+    margin-top: 15px;
+    background: linear-gradient(#f95432,#eb5f0f);
+    box-shadow: 2px 2px 8px #f95432;
+    color: white;
+    font-weight: 700;
+    opacity: 1;
+    border: none;
+    padding: 10px;
+}
+
 /*Contact*/
     #contact{
         margin-top: 100px;
         background: #f7f7f7;
+        padding-top: 30px;
+        padding-bottom: 50px;
     }
      #contact h1,h3{
          text-align: center;
          color: #7d7c7b;
      }
-     #contact h3 span{
-         color: orange;
-     }
-     
+
      .icon-parent{
          display: flex;
          margin-left: 620px;
@@ -186,6 +246,15 @@ ul li a:hover{
         height: 50px;
     }
 
+/*footer*/
+footer{
+    margin-top: -20px;
+    padding: 50px;
+    background: black;
+}
+footer p{
+    color: #b8b8bb;
+}
 /*Animation*/
 @keyframes slide{
     0%{
