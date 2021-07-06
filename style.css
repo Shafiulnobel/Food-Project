@@ -16,7 +16,6 @@ body{
 }
 ul{
     display: inline-block;
-    
 }
 ul li{
      display: inline-block;
@@ -61,11 +60,7 @@ ul li a:hover{
 }
 
 /*Home*/
-.home{
-      margin-top: 150px;
-}
-
-.home-parent{
+#home{
     display: flex;
 }
 .text{
@@ -111,22 +106,23 @@ ul li a:hover{
 
 }
 /*About*/
-.about{
+#about{
     display: flex;
-    margin-top: 150px;
+    margin-top: 30px;
     background: url('assets/about_bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
-.about-image{
+.half-width{
     width: 50%;
 }
 .about-image img{
     height: 600px;
 }
 .about-text{
-    width: 50%;
+   
     margin-top: 100px;
+    
 }
 .about-text h2{
     color: #7d7c7b;
@@ -138,7 +134,7 @@ ul li a:hover{
 }
 /*recipies*/
 
-.recipies{
+#recipies{
 
     margin-top: -20px;
     padding-top: 100px;
@@ -149,21 +145,46 @@ ul li a:hover{
 .recipies-body{
     display: flex;
     width: 60%;
-    margin-left: 60px;
+    margin-left: 180px;
 }
 .recipies-body-1{
-    padding: 50px;
+    padding: 10px;
     margin-left: 60px;
     border-radius: 20px;
     box-shadow: 4px 4px 12px black;
 }
 .recipies-body-1 img{
     border-radius: 20px;
+    width: 300px;
 }
 .recipies-header h2,p{
     text-align: center;
 }
-
+/*Contact*/
+    #contact{
+        margin-top: 100px;
+        background: #f7f7f7;
+    }
+     #contact h1,h3{
+         text-align: center;
+         color: #7d7c7b;
+     }
+     #contact h3 span{
+         color: orange;
+     }
+     
+     .icon-parent{
+         display: flex;
+         margin-left: 620px;
+         margin-top: 20px;
+     }
+     .icon{
+         margin: 20px;
+     }
+    .icon img{
+        width: 50px;
+        height: 50px;
+    }
 
 /*Animation*/
 @keyframes slide{
