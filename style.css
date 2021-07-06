@@ -111,6 +111,7 @@ span{
 }
 /*About*/
 #about{
+ 
     display: flex;
     margin-top: 30px;
     background: url('assets/about_bg.jpg');
@@ -188,6 +189,7 @@ span{
 .order-parent{
     display: flex;
     width: 80%;
+    margin-left: 80px;
 }
 .input{
     display: block;
@@ -202,7 +204,7 @@ span{
     opacity: .5;
 }
 .text-field{
-    margin-left: 180px;
+    margin-left: 250px;
     margin-top: 80px;
 }
 .search{
