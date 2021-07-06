@@ -148,7 +148,7 @@ span{
 
 .recipies-body{
     display: flex;
-    width: 60%;
+    width: 50%;
     margin-left: 180px;
 }
 .recipies-body-1{
@@ -202,7 +202,7 @@ span{
     opacity: .5;
 }
 .text-field{
-    margin-left: 150px;
+    margin-left: 180px;
     margin-top: 80px;
 }
 .search{
@@ -220,7 +220,10 @@ span{
     border: none;
     padding: 10px;
 }
-
+.service img{
+    margin-top: 50px;
+    width: 70%;
+}
 /*Contact*/
     #contact{
         margin-top: 100px;
